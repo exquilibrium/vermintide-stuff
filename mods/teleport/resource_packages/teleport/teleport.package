@@ -1,0 +1,11 @@
+mod = [
+	"teleport"
+]
+
+package = [
+	"resource_packages/teleport/teleport"
+]
+
+lua = [
+	"scripts/mods/teleport/*"
+]

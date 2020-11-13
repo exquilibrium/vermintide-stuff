@@ -1,0 +1,532 @@
+DIFFICULTY : Legend
+
+####################   plaza_wave_1   ####################
+WAVE : 1 --- 1
+(WAIT : 2s) 
+            directional_a : (skaven_slave : 24) (skaven_clan_rat : 6) 
+            directional_d : (chaos_fanatic : 20) (chaos_marauder : 6) 
+(WAIT : 12s) 
+            manual_f : skaven_ratling_gunner
+            manual_e : skaven_ratling_gunner
+            manual_h : skaven_ratling_gunner
+===> continue after : 80s or less than 8 enemies <===
+
+WAVE : 1 --- 2
+            spawner_flush_out : (skaven_slave : 40) 
+(WAIT : 10s) 
+            manual_f : skaven_pack_master
+            manual_i : skaven_pack_master
+===> continue after : 80s or less than 8 enemies <===
+
+WAVE : 1 --- 3
+            directional_h : (skaven_storm_vermin_commander : 5) 
+            directional_e : (skaven_storm_vermin_commander : 5) 
+(WAIT : 10s) 
+===> continue after : 100s or less than 3 enemies <===
+
+
+####################   plaza_wave_2   ####################
+WAVE : 2 --- 1
+(WAIT : 2s) 
+            directional_a : (chaos_fanatic : 36) (chaos_marauder : 8) 
+(WAIT : 10s) 
+===> continue after : 80s or less than 20 enemies <===
+
+WAVE : 2 --- 2
+            directional_d : (chaos_warrior : 6) (chaos_marauder : 6) 
+(WAIT : 10s) 
+            manual_g : skaven_poison_wind_globadier
+            manual_c : skaven_poison_wind_globadier
+            manual_h : skaven_poison_wind_globadier
+            manual_a : skaven_poison_wind_globadier
+            manual_i : skaven_poison_wind_globadier
+(WAIT : 3s) 
+===> continue after : 80s or less than 2 enemies <===
+
+WAVE : 2 --- 3
+(WAIT : 2s) 
+            directional_e : (chaos_fanatic : 25) (chaos_marauder : 10) 
+            directional_c : (chaos_fanatic : 25) (chaos_marauder : 10) 
+(WAIT : 7s) 
+===> continue after : 80s or less than 10 enemies <===
+
+WAVE : 2 --- 4
+            spawner_flush_in : (skaven_slave : 30) (skaven_clan_rat_with_shield : 5) 
+(WAIT : 3s) 
+            manual_k : chaos_spawn
+(WAIT : 4s) 
+            directional_a : (chaos_fanatic : 15) (chaos_marauder : 10) 
+            directional_f : (chaos_fanatic : 15) (chaos_marauder : 10) 
+(WAIT : 4s) 
+            manual_f : skaven_pack_master
+(WAIT : 2s) 
+            manual_e : skaven_pack_master
+(WAIT : 2s) 
+            manual_g : skaven_pack_master
+(WAIT : 2s) 
+            manual_j : skaven_pack_master
+(WAIT : 2s) 
+            manual_i : skaven_pack_master
+===> continue after : 120s or less than 1 enemies <===
+
+
+####################   plaza_wave_3   ####################
+WAVE : 3 --- 1
+(WAIT : 3s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 4s) 
+            spawner_flush_out : (skaven_slave : 45) (skaven_clan_rat_with_shield : 7) 
+(WAIT : 5s) 
+            manual_h : skaven_gutter_runner
+            manual_f : skaven_gutter_runner
+            manual_c : skaven_gutter_runner
+            manual_g : skaven_gutter_runner
+            manual_a : skaven_gutter_runner
+            manual_d : skaven_gutter_runner
+            manual_i : skaven_gutter_runner
+            manual_k : skaven_gutter_runner
+            manual_b : skaven_gutter_runner
+            manual_j : skaven_gutter_runner
+(WAIT : 3s) 
+===> continue after : 80s or less than 4 enemies <===
+
+WAVE : 3 --- 2
+            spawner_flush_in : (skaven_slave : 40) (skaven_clan_rat : 7) (skaven_clan_rat_with_shield : 4) 
+(WAIT : 8s) 
+===> continue after : 80s or less than 12 enemies <===
+
+WAVE : 3 --- 3
+            directional_a : (skaven_storm_vermin_commander : 4) 
+            directional_b : (skaven_storm_vermin_commander : 4) 
+            directional_g : (skaven_storm_vermin_commander : 4) 
+            directional_f : (skaven_storm_vermin_commander : 4) 
+(WAIT : 6s) 
+===> continue after : 80s or less than 10 enemies <===
+
+WAVE : 3 --- 4
+(WAIT : 3s) 
+            directional_a : (chaos_fanatic : 25) (chaos_marauder : 15) 
+(WAIT : 12s) 
+            manual_e : chaos_vortex_sorcerer
+            manual_g : chaos_vortex_sorcerer
+            manual_f : chaos_vortex_sorcerer
+            manual_c : chaos_vortex_sorcerer
+===> continue after : 80s or less than 8 enemies <===
+
+WAVE : 3 --- 5
+            directional_d : (chaos_marauder_with_shield : 12) (chaos_marauder : 8) 
+(WAIT : 2s) 
+            directional_a : (chaos_berzerker : 10) 
+(WAIT : 8s) 
+===> continue after : 120s or less than 3 enemies <===
+
+
+####################   plaza_wave_4   ####################
+WAVE : 4 --- 1
+(WAIT : 3s) 
+            directional_c : (chaos_fanatic : 20) (chaos_marauder_with_shield : 3) (chaos_marauder : 3) 
+            directional_f : (chaos_fanatic : 20) (chaos_marauder_with_shield : 3) (chaos_marauder : 3) 
+(WAIT : 8s) 
+            directional_a : (chaos_marauder : 3) (chaos_marauder_with_shield : 4) (chaos_raider : 2) 
+            directional_d : (chaos_marauder : 3) (chaos_marauder_with_shield : 4) (chaos_raider : 2) 
+(WAIT : 8s) 
+===> continue after : 80s or less than 20 enemies <===
+
+WAVE : 4 --- 2
+            directional_g : (chaos_warrior : 5) 
+            directional_c : (chaos_warrior : 5) 
+(WAIT : 10s) 
+            manual_k : chaos_corruptor_sorcerer
+(WAIT : 1s) 
+            manual_j : chaos_corruptor_sorcerer
+(WAIT : 1s) 
+            manual_g : chaos_corruptor_sorcerer
+(WAIT : 1s) 
+            manual_i : chaos_corruptor_sorcerer
+(WAIT : 1s) 
+            manual_a : chaos_corruptor_sorcerer
+(WAIT : 1s) 
+            manual_b : chaos_corruptor_sorcerer
+===> continue after : 80s or less than 5 enemies <===
+
+WAVE : 4 --- 3
+            spawner_flush_out : (skaven_slave : 15) (skaven_clan_rat : 10) 
+            spawner_flush_in : (skaven_slave : 15) (skaven_clan_rat : 10) 
+(WAIT : 6s) 
+            manual_e : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_j : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_h : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_f : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_i : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_c : skaven_ratling_gunner
+(WAIT : 4s) 
+===> continue after : 80s or less than 6 enemies <===
+
+WAVE : 4 --- 4
+            directional_h : (skaven_storm_vermin_commander : 4) (skaven_storm_vermin_with_shield : 2) 
+            directional_e : (skaven_storm_vermin_commander : 4) (skaven_storm_vermin_with_shield : 2) 
+            spawner_flush_in : (skaven_slave : 15) (skaven_clan_rat : 10) 
+(WAIT : 4s) 
+            manual_b : skaven_pack_master
+            manual_i : skaven_pack_master
+===> continue after : 100s or less than 1 enemies <===
+
+
+####################   plaza_wave_5   ####################
+WAVE : 5 --- 1
+(WAIT : 2s) 
+            directional_a : (chaos_fanatic : 20) (chaos_marauder_with_shield : 3) (chaos_marauder : 20) 
+(WAIT : 12s) 
+            manual_i : skaven_warpfire_thrower
+(WAIT : 1s) 
+            manual_a : skaven_warpfire_thrower
+(WAIT : 1s) 
+            manual_d : skaven_warpfire_thrower
+(WAIT : 1s) 
+            manual_f : skaven_warpfire_thrower
+(WAIT : 1s) 
+            manual_c : skaven_warpfire_thrower
+(WAIT : 1s) 
+            manual_b : skaven_warpfire_thrower
+(WAIT : 2s) 
+            directional_g : (skaven_plague_monk : 8) 
+            directional_e : (skaven_plague_monk : 8) 
+===> continue after : 80s or less than 8 enemies <===
+
+WAVE : 5 --- 2
+            manual_j : skaven_stormfiend
+(WAIT : 10s) 
+            spawner_flush_out : (skaven_slave : 40) (skaven_clan_rat : 15) 
+(WAIT : 5s) 
+            manual_h : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_j : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_g : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_f : skaven_poison_wind_globadier
+===> continue after : 80s or less than 5 enemies <===
+
+WAVE : 5 --- 3
+            spawner_flush_out : (skaven_slave : 35) (skaven_clan_rat : 20) 
+(WAIT : 10s) 
+            manual_f : skaven_pack_master
+(WAIT : 1s) 
+            manual_h : skaven_pack_master
+(WAIT : 1s) 
+            manual_a : skaven_pack_master
+(WAIT : 1s) 
+            manual_b : skaven_pack_master
+(WAIT : 1s) 
+            manual_c : skaven_pack_master
+(WAIT : 1s) 
+            manual_d : skaven_pack_master
+(WAIT : 1s) 
+            manual_i : skaven_pack_master
+(WAIT : 1s) 
+            manual_e : skaven_pack_master
+===> continue after : 80s or less than 5 enemies <===
+
+WAVE : 5 --- 4
+            directional_a : (skaven_slave : 35) (skaven_clan_rat : 20) 
+(WAIT : 10s) 
+            directional_f : (skaven_storm_vermin_commander : 8) 
+===> continue after : 160s or less than 1 enemies <===
+
+
+####################   plaza_wave_6   ####################
+WAVE : 6 --- 1
+(WAIT : 2s) 
+            spawner_flush_in : (skaven_slave : 20) (skaven_clan_rat : 10) 
+            directional_h : (skaven_plague_monk : 3) 
+            directional_b : (skaven_plague_monk : 3) 
+            directional_f : (skaven_plague_monk : 3) 
+            directional_c : (skaven_plague_monk : 3) 
+            directional_g : (skaven_plague_monk : 3) 
+            directional_e : (skaven_plague_monk : 3) 
+(WAIT : 8s) 
+===> continue after : 100s or less than 8 enemies <===
+
+WAVE : 6 --- 2
+            directional_g : (skaven_storm_vermin_commander : 10) (skaven_storm_vermin_with_shield : 3) 
+            directional_c : (skaven_storm_vermin_commander : 10) (skaven_storm_vermin_with_shield : 3) 
+(WAIT : 5s) 
+            manual_h : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_j : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_f : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_g : skaven_poison_wind_globadier
+===> continue after : 80s or less than 5 enemies <===
+
+WAVE : 6 --- 3
+            directional_e : (skaven_slave : 35) (skaven_clan_rat : 10) 
+            directional_h : (skaven_slave : 35) (skaven_clan_rat : 10) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 8s) 
+            manual_k : skaven_gutter_runner
+(WAIT : 1s) 
+            manual_j : skaven_gutter_runner
+(WAIT : 1s) 
+            manual_c : skaven_gutter_runner
+(WAIT : 1s) 
+            manual_a : skaven_gutter_runner
+===> continue after : 80s or less than 3 enemies <===
+
+WAVE : 6 --- 4
+            directional_b : (chaos_raider : 6) (chaos_fanatic : 10) (chaos_marauder : 4) 
+            directional_f : (chaos_raider : 6) (chaos_fanatic : 10) (chaos_marauder : 4) 
+(WAIT : 12s) 
+            manual_c : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_j : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_h : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_f : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_e : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_b : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_i : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_a : skaven_ratling_gunner
+===> continue after : 80s or less than 10 enemies <===
+
+WAVE : 6 --- 5
+            spawner_flush_out : (skaven_slave : 20) (skaven_clan_rat : 10) 
+            spawner_flush_in : (skaven_slave : 20) (skaven_clan_rat : 10) 
+(WAIT : 12s) 
+===> continue after : 120s or less than 3 enemies <===
+
+
+####################   plaza_wave_7   ####################
+WAVE : 7 --- 1
+(WAIT : 2s) 
+            directional_a : (skaven_storm_vermin_commander : 2) (skaven_slave : 20) 
+            directional_d : (skaven_storm_vermin_commander : 2) (skaven_slave : 20) 
+(WAIT : 10s) 
+            manual_j : skaven_pack_master
+(WAIT : 1s) 
+            manual_h : skaven_pack_master
+(WAIT : 1s) 
+            manual_g : chaos_corruptor_sorcerer
+(WAIT : 1s) 
+            manual_f : chaos_corruptor_sorcerer
+(WAIT : 8s) 
+===> continue after : 80s or less than 10 enemies <===
+
+WAVE : 7 --- 2
+            manual_f : chaos_vortex_sorcerer
+(WAIT : 1s) 
+            manual_i : chaos_vortex_sorcerer
+            spawner_flush_out : (skaven_slave : 35) (skaven_clan_rat : 10) 
+            spawner_flush_in : (skaven_slave : 35) (skaven_clan_rat : 10) 
+(WAIT : 8s) 
+===> continue after : 80s or less than 10 enemies <===
+
+WAVE : 7 --- 3
+            directional_h : (skaven_plague_monk : 8) 
+            directional_e : (skaven_plague_monk : 8) 
+(WAIT : 8s) 
+===> continue after : 80s or less than 5 enemies <===
+
+WAVE : 7 --- 4
+            directional_a : (skaven_clan_rat_with_shield : 10) (skaven_storm_vermin_commander : 6) 
+            directional_d : (skaven_clan_rat_with_shield : 10) (skaven_storm_vermin_commander : 6) 
+(WAIT : 5s) 
+            manual_j : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_i : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_g : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_h : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_f : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_e : skaven_poison_wind_globadier
+===> continue after : 80s or less than 2 enemies <===
+
+WAVE : 7 --- 5
+(WAIT : 5s) 
+            directional_e : (chaos_warrior : 10) 
+            directional_h : (chaos_warrior : 10) 
+(WAIT : 5s) 
+            manual_i : chaos_vortex_sorcerer
+(WAIT : 1s) 
+            manual_e : chaos_vortex_sorcerer
+(WAIT : 1s) 
+            manual_g : chaos_vortex_sorcerer
+(WAIT : 1s) 
+            manual_b : chaos_vortex_sorcerer
+(WAIT : 1s) 
+            manual_b : chaos_vortex_sorcerer
+(WAIT : 1s) 
+            manual_f : chaos_vortex_sorcerer
+(WAIT : 1s) 
+            manual_c : chaos_vortex_sorcerer
+(WAIT : 5s) 
+            spawner_flush_out : (skaven_slave : 35) (skaven_clan_rat : 10) 
+===> continue after : 180s or less than 2 enemies <===
+
+
+####################   plaza_wave_8   ####################
+WAVE : 8 --- 1
+(WAIT : 5s) 
+            directional_a : (chaos_marauder : 20) (chaos_raider : 2) (chaos_warrior : 2) 
+            directional_d : (chaos_marauder : 20) (chaos_raider : 2) (chaos_warrior : 2) 
+(WAIT : 20s) 
+            manual_g : chaos_troll
+(WAIT : 8s) 
+            manual_d : skaven_rat_ogre
+(WAIT : 10s) 
+===> continue after : 120s or less than 6 enemies <===
+
+WAVE : 8 --- 2
+            spawner_flush_out : (skaven_slave : 15) (skaven_clan_rat : 20) 
+            spawner_flush_in : (skaven_slave : 15) (skaven_clan_rat : 20) 
+(WAIT : 3s) 
+(WAIT : 1s) 
+(WAIT : 1s) 
+(WAIT : 8s) 
+            manual_i : skaven_gutter_runner
+(WAIT : 1s) 
+            manual_d : skaven_gutter_runner
+(WAIT : 1s) 
+            manual_e : skaven_gutter_runner
+(WAIT : 1s) 
+===> continue after : 120s or less than 6 enemies <===
+
+WAVE : 8 --- 3
+            directional_h : (chaos_berzerker : 6) (chaos_raider : 4) 
+            directional_f : (chaos_berzerker : 6) (chaos_raider : 4) 
+(WAIT : 12s) 
+            manual_i : skaven_pack_master
+(WAIT : 1s) 
+            manual_e : skaven_pack_master
+(WAIT : 1s) 
+            manual_f : skaven_pack_master
+            spawner_flush_out : (skaven_slave : 15) (skaven_clan_rat : 20) 
+(WAIT : 12s) 
+===> continue after : 160s or less than 6 enemies <===
+
+WAVE : 8 --- 4
+            directional_a : (chaos_marauder : 20) (chaos_raider : 2) (chaos_warrior : 2) 
+(WAIT : 5s) 
+            manual_h : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_g : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_f : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_e : skaven_poison_wind_globadier
+(WAIT : 5s) 
+===> continue after : 160s or less than 6 enemies <===
+
+WAVE : 8 --- 5
+            directional_c : (skaven_storm_vermin_commander : 8) (skaven_storm_vermin_with_shield : 2) 
+            directional_g : (skaven_storm_vermin_commander : 8) (skaven_storm_vermin_with_shield : 2) 
+(WAIT : 15s) 
+            manual_j : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_k : skaven_pack_master
+(WAIT : 1s) 
+            manual_h : skaven_ratling_gunner
+(WAIT : 1s) 
+            manual_h : skaven_pack_master
+(WAIT : 1s) 
+            manual_f : skaven_ratling_gunner
+(WAIT : 8s) 
+            manual_a : skaven_rat_ogre
+===> continue after : 120s or less than 6 enemies <===
+
+WAVE : 8 --- 6
+            spawner_flush_out : (skaven_slave : 45) 
+            directional_h : (skaven_plague_monk : 5) 
+            directional_e : (skaven_plague_monk : 5) 
+(WAIT : 12s) 
+(WAIT : 1s) 
+(WAIT : 8s) 
+            manual_a : skaven_gutter_runner
+(WAIT : 1s) 
+            manual_c : skaven_gutter_runner
+(WAIT : 1s) 
+            manual_h : skaven_poison_wind_globadier
+(WAIT : 1s) 
+            manual_f : skaven_ratling_gunner
+===> continue after : 160s or less than 6 enemies <===
+
+WAVE : 8 --- 7
+            directional_a : (chaos_marauder : 8) (chaos_raider : 4) (chaos_marauder_with_shield : 2) 
+            directional_d : (chaos_marauder : 8) (chaos_raider : 4) (chaos_marauder_with_shield : 2) 
+(WAIT : 12s) 
+            manual_a : skaven_warpfire_thrower
+(WAIT : 1s) 
+            manual_d : skaven_warpfire_thrower
+(WAIT : 15s) 
+            directional_f : (skaven_storm_vermin_commander : 8) 
+            directional_h : (skaven_storm_vermin_commander : 8) 
+(WAIT : 25s) 
+            manual_f : skaven_warpfire_thrower
+(WAIT : 1s) 
+            manual_h : skaven_warpfire_thrower
+            directional_e : (chaos_warrior : 5) 
+(WAIT : 4s) 
+            manual_j : chaos_vortex_sorcerer
+(WAIT : 1s) 
+            manual_f : chaos_vortex_sorcerer
+(WAIT : 1s) 
+            manual_k : chaos_corruptor_sorcerer
+(WAIT : 1s) 
+            manual_g : chaos_corruptor_sorcerer
+(WAIT : 1s) 
+            manual_f : chaos_corruptor_sorcerer
+===> continue after : 160s or less than 10 enemies <===
+
+WAVE : 8 --- 8
+            directional_a : (chaos_marauder : 5) 
+(WAIT : 1s) 
+            directional_b : (chaos_marauder : 5) 
+(WAIT : 1s) 
+            directional_c : (chaos_marauder : 5) 
+(WAIT : 1s) 
+            directional_d : (chaos_marauder : 5) 
+(WAIT : 1s) 
+            directional_e : (chaos_marauder : 5) 
+(WAIT : 1s) 
+            directional_f : (chaos_marauder : 5) 
+(WAIT : 1s) 
+            directional_g : (chaos_marauder : 5) 
+(WAIT : 1s) 
+            directional_h : (chaos_marauder : 5) 
+(WAIT : 15s) 
+            spawner_flush_out : (skaven_slave : 15) (skaven_clan_rat : 20) 
+(WAIT : 8s) 
+===> continue after : 160s or less than 5 enemies <===
+
+WAVE : 8 --- 9
+            spawner_flush_out : (skaven_slave : 45) 
+            directional_d : (chaos_warrior : 5) 
+            directional_a : (chaos_warrior : 5) 
+(WAIT : 10s) 
+===> continue after : 300s or less than 1 enemies <===
+
