@@ -12401,7 +12401,7 @@ local horde = {
     "skaven_clan_rat",
     "skaven_clan_rat_with_shield",
     "chaos_fanatic",
-    "chaos_raider",
+    "chaos_marauder",
     "chaos_marauder_with_shield"
 }
 
@@ -12427,14 +12427,14 @@ local breedToName = {
     skaven_clan_rat = "Clanrat",
     skaven_clan_rat_with_shield = "Shielded Clanrat",
     chaos_fanatic = "Fanatic",
-    chaos_raider = "Raider",
+    chaos_marauder = "Marauder",
     chaos_marauder_with_shield = "Shielded Raider",
 
     skaven_plague_monk = "Plague Monk",
     skaven_storm_vermin_commander = "Stormvermin",
     skaven_storm_vermin_with_shield = "Shielded Stormvermin",
     chaos_berzerker = "Berzerker",
-    chaos_marauder = "Marauder",
+    chaos_raider = "Raider",
     chaos_warrior = "Chaos Warrior",
 
     skaven_pack_master = "Hookrat",
