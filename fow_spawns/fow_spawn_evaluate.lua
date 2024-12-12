@@ -5353,7 +5353,7 @@ skaven_slave
 skaven_clan_rat
 skaven_clan_rat_with_shield
 chaos_fanatic
-chaos_raider
+chaos_marauder
 chaos_marauder_with_shield
 
 Elite:
@@ -5361,7 +5361,7 @@ skaven_plague_monk
 skaven_storm_vermin_commander
 skaven_storm_vermin_shield
 chaos_berzerker
-chaos_marauder
+chaos_raider
 chaos_warrior
 
 Special:
